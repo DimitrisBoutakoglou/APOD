@@ -263,7 +263,7 @@ footer p{
 
 
 
-/* -------------------- APOD MOBILE  -------------------- */
+/* -------------------- HOME APOD MOBILE  -------------------- */
 
 @media (max-width: 1560px){
     .apod-title{
@@ -331,7 +331,7 @@ footer p{
     }
 }
 
-/* -------------------- CURIOSITY MOBILE  -------------------- */
+/* -------------------- HOME CURIOSITY MOBILE  -------------------- */
 
 @media (max-width: 1650px){
     .sat-img{
@@ -450,7 +450,7 @@ footer p{
 }
 
 
-/* -------------------- FOOTER MOBILE  -------------------- */
+/* -------------------- HOME FOOTER MOBILE  -------------------- */
 
 @media(max-width: 850px){
     .side-footer{
@@ -628,6 +628,21 @@ footer p{
     text-align: center;
 }
 
+.curiosity-date-submit-btn{
+    border: 1px solid black;
+    background-color: rgb(242, 237, 237);
+    padding: 3px 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.curiosity-date-submit-btn:hover{
+    transition: 0.3s;
+    color:white;
+    background-color: black;
+}
+
+
 .latest-curiosity-photo{
     display: flex;
     flex-direction: column;
@@ -663,10 +678,67 @@ footer p{
 
 
 
+/* -------------------- CURIOSITY MOBILE  -------------------- */
+
+@media (max-width: 990px){
+    .latest-curiosity-photo-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-curiosity{
+        width: 100%;
+        padding: 0em 5em 0em 5em;
+    }
+    .about-curiosity-title{
+        max-width: 85%;
+    }
+    .latest-curiosity-photo{
+        width: 90%;
+    }
+}
+
+@media (max-width: 550px){
+    .about-curiosity-title{
+        font-size: 4rem;
+    }
+    .latest-curiosity-photo-desc{
+        font-size: 1rem;
+    }
+    .about-curiosity-call h2{
+        font-size: 1.5rem;
+    }
+    .about-curiosity-call p{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 450px){
+    .about-curiosity{
+        padding: 0em 2em 0em 2em;
+    }
+    .about-curiosity-title{
+        font-size: 2rem;
+    }
+    .latest-curiosity-photo-desc{
+        font-size: .8rem;
+    }
+    .MSP-input-container{
+        padding: 0em 2em 0em 2em;
+    }
+}
 
 
 
 
+
+
+
+
+
+
+
+/* -------------------- FADE ANIMATION  -------------------- */
 
 @keyframes fadeInUp {
   0% {
