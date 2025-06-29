@@ -15,7 +15,7 @@
 
     <div class="site-wrapper fadeInUp-animation">
     
-    <header class="header-home" id="header-home">
+    <header class="header-about" id="header-about">
         <div class="side-menu"></div>
 
             <nav class="navbar navbar-expand-lg navbar-light bg-white" style="font-family: 'Oxanium', sans-serif;">
@@ -25,8 +25,8 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav mx-auto text-center">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="apod.html">Astronomy Picture of the Day</a>
@@ -34,8 +34,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="curiosity.html">Curiosity</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html"><span class="sr-only">(current)</span>About</a>
                         </li>
                     </ul>
                 </div>
@@ -43,41 +43,33 @@
         </header>
 
 
-        <main>
-            <div class="apod-container">
+        
+        <div class="about-container">
+            <div class="side about-side"></div>
+            <div class="about-text">
+                <h1 class="about-title">About</h1>
+                <p class="about-desc">As a lifelong space enthusiast, I created this website as a personal passion project to celebrate my love for astronomy 
+                    and the wonders of the cosmos. The site is powered by NASA’s Astronomy Picture of the Day (APOD) API, 
+                    which I integrated as a way to practice working with external APIs and to deepen my skills in web development.</p>
+                <p class="about-desc">In this website one can also find the Curiosity Mars Rover Section. 
+                    The Curiosity Mars Rover, a flagship mission of NASA’s Mars Science Laboratory, 
+                    has been exploring the surface of Mars since 2012. One of its most exciting features is its ability to 
+                    capture and transmit stunning images from the Martian landscape. Users can search and view these remarkable pictures,
+                     gaining a firsthand look at the Red Planet’s surface as seen through Curiosity’s various onboard cameras. 
+                     This unique opportunity allows you to explore Mars virtually, observing everything from sweeping panoramas 
+                     to detailed close-ups of rocks and soil, all captured by the rover as it continues its groundbreaking mission. </p>
+                <p class="about-desc">Building this project allowed me to combine two of my favorite things: coding and exploring 
+                    the universe. It was both a technical challenge and a labor of love—every feature, 
+                    from fetching the daily image to presenting the detailed explanations and the ability to select specific 
+                    dates too see images directly from the surface of another world, was crafted with care and curiosity.</p>
+                <p class="about-desc">This website is more than just a showcase of stunning astronomical images; 
+                    it’s a reflection of my fascination with space and my commitment to continuous learning as a developer. 
+                    I hope other space lovers enjoy exploring the cosmos through this project as much as I enjoyed building it!</p>
+            </div>            
+        </div>
 
-                <div class="side side-main"></div>
-
-                <div class="apod-text">
-                    <h1 class="apod-title">Astronomy Picture of the Day</h1>
-                    <p class="apod-see">See today's Astronomy Picture of The Day chosen by NASA.</p>
-                    <p class="apod-here">Learn more about it <span><a href="apod.html">here</a>!</p>
-                </div>
-
-                <div class="apod-image">
-                    <a href="apod.html"><img src="" alt="" title="Click to read more"></a>                
-                </div>
-            </div>
-        </main>
-
-
-        <div class="curiosity-container">
-
-            <div class="side side-curiosity"></div>
-
-                <div class="curiosity-text">
-                    <h1 class="curiosity-title">Curious about Curiosity Mars Rover?</h1>
-                    <p class="curiosity-desc">Curiosity is a car-sized Mars rover exploring Gale crater and Mount Sharp on Mars as part of NASA's Mars Science Laboratory mission.
-                                                Curiosity was launched from Cape Canaveral on November 26, 2011, and landed on Aeolis Palus inside Gale crater on Mars on August 6, 2012.</p>
-                    <p class="curiosity-here">Check out it's past and recent adventures <span><a href="curiosity.html">here</a></span>!</p>
-                </div>
-
-                <div class="curiosity-images">
-                    <img class="sat-img" src="./images/mro.png" alt="Image of Mars Reconnaissance Orbiter Sattelite">
-                    <img class="mars-img" src="./images/mars-rover.png" alt="Image of Mars and Mars Curiosity Rover">
-                </div>
-            </div>
-
+        
+        
         <footer>
             
             
@@ -88,7 +80,7 @@
                 <ul>
                     <li><a class="back-to-top" href="https://github.com/DimitrisBoutakoglou/APOD" target="_blank">About the project</a></li>
                     <li><a class="back-to-top" href="https://dimitrisboutakoglou.github.io/portfolio/" target="_blank">About me</a></li>
-                    <li><a class="back-to-top" href="#header-home">Back to top</a></li>
+                    <li><a class="back-to-top" href="#header-about">Back to top</a></li>
                 </ul>
                     <p>Made by <a href="https://dimitrisboutakoglou.github.io/portfolio/" target="_blank">me</a> with love &#10084;</p>
             </div>
